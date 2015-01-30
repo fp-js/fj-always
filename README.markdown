@@ -19,3 +19,24 @@ sayHello(true); // => 'hello'
 sayHello(false); // => 'hello'
 sayHello('foo'); // => 'hello'
 ```
+
+
+## API
+
+### always
+
+Return always a given value.
+
+`always(value)`
+
+***Parameters***
+
+| Name          | Type        | Description                              |
+| ------------- | ----------- | --------------------------               |
+| value         | *           | The value that should be returned always |
+
+***Returns***
+
+| Type        | Description                            |
+| ----------- | --------------------------             |
+| function    | A function that always returns `value` |
