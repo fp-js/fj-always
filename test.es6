@@ -2,7 +2,7 @@ import test from 'prova';
 import always from './';
 
 
-test('fd-always', (t) => {
+test('fj-always', (t) => {
   t.plan(6);
  
   t.equal(typeof always, 'function');

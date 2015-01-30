@@ -9,7 +9,7 @@ var always = _interopRequire(require("./"));
 
 
 
-test("fd-always", function (t) {
+test("fj-always", function (t) {
   t.plan(6);
 
   t.equal(typeof always, "function");
